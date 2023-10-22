@@ -28,6 +28,14 @@ header{
     border-radius: 20%;
     background-color: #605CFF;
 }
+#login:hover{
+    font-weight: bolder;
+    background-color: rgb(0, 157, 255);
+}
+#signup:hover{
+    font-weight: bolder;
+    background-color: rgb(0, 157, 255);
+}
 #signup{
     padding: 5px;
     margin-left: 0px;
