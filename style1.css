@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+   padding: 0px;
 }
 header{
     background-color: #605CFF;
@@ -50,10 +51,11 @@ div.register{
     display: inline-block;
     margin-top: 0px;
     margin-left: 30px;
-    
+    border: none;
 }
 .options ul li{
     display:inline-flex;
+    border: none;
 }
 .options ul li select{
     text-decoration: none;
@@ -113,43 +115,116 @@ select{
     display: block;
 }
 div.item1{
-    border: 4px solid black;
-    border-radius: 5%;
+    border: #4845bf;
+     border-radius: 5%;
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 80px;
+    margin-left: 4%;
+    margin-top: 3.6%;
 }
-div.pictures img{
-    border-radius: 10%;
+div.details h3{
+    padding: 1.5%;
+    font-size: 1.5em;
+    color: white;
 }
-div.item1:hover{
-    box-shadow: 5px 5px 12px 2px rgba(0,0,0,.8);
+div.details button {
+    padding: 2%;
+    margin-left: 0.5%;
+    margin-top: 5%;
+}
+div.details button a {
+    color: #605CFF;
+    text-decoration: none;
+    font-size: 140%;
 }
 
+div.details button:hover {
+    background-color: grey;
+}
+ div.pictures img{
+     border-radius: 8%; 
+} 
+div.pictures:hover{
+    box-shadow: 5px 5px 12px 2px rgba(255,255,255,.8);
+}
+main{
+    background-color: #605CFF;
+}
+footer{
+    background-color: white;
+}
+div.blank{
+    width: 100%;
+    height: 450px;
+    background-color: #4845bf;
+}
+#c {
+    display: block;
+    text-align: center;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 2.4em;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.aboutt {
+    background-color: white;
+
+    height: 20%;
+    width: 60%;
+    margin-top: 8%;
+    margin-left: 5%;
+
+}
+div.a {
+    color: black;
+    padding: 5%;
+    font-size: 200%;
+    font-family: candara;
+}
+div.b{
+    color: black;
+    padding: 5%;
+    font-family:'Lucida Grande';
+}
+div.b p {
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.quotes p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 2em;
+}
+div.quotes{
+    margin-top: 2%;
+    padding: 5%;
+}
+div.ab {
+    padding: 15%;
+}
 .footer{
-    background:#000;
+    background: seashell;
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
-    margin-top: 20%;
     }
     
     .footer .row{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
-    color:gray;
+    color:#4845bf;
     font-size:0.8em;
     }
     
     .footer .row a{
     text-decoration:none;
-    color:gray;
+    color:#4845bf;
     transition:0.5s;
     }
     
     .footer .row a:hover{
-    color:#fff;
+    color:#4845bf;
     }
     
     .footer .row ul{
@@ -180,7 +255,3 @@ div.item1:hover{
     margin:0% 3%;
     }
     }
-    
-    
-    
-    
