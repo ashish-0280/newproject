@@ -139,8 +139,10 @@ div.details button a {
     font-size: 140%;
 }
 
-div.details button:hover {
+div.details button a:hover {
     background-color: grey;
+    color: white;
+    font-weight: bold;
 }
  div.pictures img{
      border-radius: 8%; 
