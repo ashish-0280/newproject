@@ -125,9 +125,8 @@ div.details h3{
     color: white;
 }
 div.details button {
-    padding: 2%;
+    padding: 0.4%;
     margin-left: 0.5%;
-    margin-top: 5%;
 }
 div.details button a {
     color: #605CFF;
