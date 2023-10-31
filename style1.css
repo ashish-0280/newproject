@@ -125,18 +125,18 @@ div.details h3{
     color: white;
 }
 div.details button {
-    padding: 0.4%;
     margin-left: 0.5%;
+    border: #4845bf;
 }
 div.details button a {
-    color: #605CFF;
+    color: white;
     text-decoration: none;
     font-size: 140%;
+    background-color: #605CFF;
 }
 
 div.details button a:hover {
-    background-color: grey;
-    color: white;
+   
     font-weight: bold;
 }
  div.pictures img{
